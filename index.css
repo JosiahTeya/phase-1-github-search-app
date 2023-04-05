@@ -1,4 +1,4 @@
-#main {
+/* #main {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,4 +10,37 @@
 
 ul {
   list-style: none;
+} */
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#github-form {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#search {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+#user-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+#user-list img {
+  margin-right: 10px;
+}
+
+#user-list a {
+  margin-left: 10px;
+}
+
+#repos-list li {
+  margin-bottom: 10px;
 }
